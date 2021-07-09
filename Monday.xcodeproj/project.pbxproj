@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401F0DB92698A68E00B455B8 /* HomeBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DB42698A68D00B455B8 /* HomeBox.png */; };
+		401F0DBA2698A68E00B455B8 /* HomeAcc.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DB52698A68D00B455B8 /* HomeAcc.png */; };
+		401F0DBB2698A68E00B455B8 /* HomeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DB62698A68D00B455B8 /* HomeImage.png */; };
+		401F0DBC2698A68E00B455B8 /* HomeTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DB72698A68D00B455B8 /* HomeTop.png */; };
+		401F0DBD2698A68E00B455B8 /* HomeBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DB82698A68E00B455B8 /* HomeBottom.png */; };
+		401F0DBF2698A82000B455B8 /* HomeProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DBE2698A82000B455B8 /* HomeProfile.png */; };
+		401F0DC22698A8D300B455B8 /* HomeAccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DC02698A8D200B455B8 /* HomeAccount.png */; };
+		401F0DC32698A8D300B455B8 /* HomeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F0DC12698A8D200B455B8 /* HomeArrow.png */; };
 		402F27802698A2680010EE77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 402F277F2698A2680010EE77 /* GoogleService-Info.plist */; };
 		40AD80812698612500529979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80802698612500529979 /* AppDelegate.swift */; };
 		40AD80832698612500529979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80822698612500529979 /* SceneDelegate.swift */; };
@@ -40,6 +48,14 @@
 
 /* Begin PBXFileReference section */
 		037A6A416B8E3A7F4C9280EA /* Pods-Monday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monday.debug.xcconfig"; path = "Target Support Files/Pods-Monday/Pods-Monday.debug.xcconfig"; sourceTree = "<group>"; };
+		401F0DB42698A68D00B455B8 /* HomeBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeBox.png; path = "Assets Monday/HomeBox.png"; sourceTree = SOURCE_ROOT; };
+		401F0DB52698A68D00B455B8 /* HomeAcc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeAcc.png; path = "Assets Monday/HomeAcc.png"; sourceTree = SOURCE_ROOT; };
+		401F0DB62698A68D00B455B8 /* HomeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeImage.png; path = "Assets Monday/HomeImage.png"; sourceTree = SOURCE_ROOT; };
+		401F0DB72698A68D00B455B8 /* HomeTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeTop.png; path = "Assets Monday/HomeTop.png"; sourceTree = SOURCE_ROOT; };
+		401F0DB82698A68E00B455B8 /* HomeBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeBottom.png; path = "Assets Monday/HomeBottom.png"; sourceTree = SOURCE_ROOT; };
+		401F0DBE2698A82000B455B8 /* HomeProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeProfile.png; sourceTree = "<group>"; };
+		401F0DC02698A8D200B455B8 /* HomeAccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeAccount.png; sourceTree = "<group>"; };
+		401F0DC12698A8D200B455B8 /* HomeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeArrow.png; sourceTree = "<group>"; };
 		402F277F2698A2680010EE77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40AD807D2698612500529979 /* Monday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD80802698612500529979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,16 +142,24 @@
 		40AD810B26989D8F00529979 /* Assets Monday */ = {
 			isa = PBXGroup;
 			children = (
-				40AD810C26989D8F00529979 /* Login OR.png */,
-				40AD810D26989D8F00529979 /* BackgroundLaunch.png */,
-				40AD810E26989D8F00529979 /* HeaderLogin.png */,
 				40AD810F26989D8F00529979 /* Logo */,
+				40AD810D26989D8F00529979 /* BackgroundLaunch.png */,
 				40AD811826989D9000529979 /* Logo.png */,
+				40AD810E26989D8F00529979 /* HeaderLogin.png */,
+				40AD810C26989D8F00529979 /* Login OR.png */,
 				40AD811926989D9000529979 /* LoginButton.png */,
 				40AD811A26989D9000529979 /* LineTextField.png */,
 				40AD811B26989D9000529979 /* LoginScreen.png */,
 				40AD811C26989D9000529979 /* Rectangle 23.png */,
 				40AD811D26989D9000529979 /* Rectangle 23-2.png */,
+				401F0DB52698A68D00B455B8 /* HomeAcc.png */,
+				401F0DB82698A68E00B455B8 /* HomeBottom.png */,
+				401F0DB42698A68D00B455B8 /* HomeBox.png */,
+				401F0DBE2698A82000B455B8 /* HomeProfile.png */,
+				401F0DB62698A68D00B455B8 /* HomeImage.png */,
+				401F0DC02698A8D200B455B8 /* HomeAccount.png */,
+				401F0DC12698A8D200B455B8 /* HomeArrow.png */,
+				401F0DB72698A68D00B455B8 /* HomeTop.png */,
 			);
 			path = "Assets Monday";
 			sourceTree = SOURCE_ROOT;
@@ -233,20 +257,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				40AD812D26989D9000529979 /* Rectangle 23.png in Resources */,
+				401F0DC22698A8D300B455B8 /* HomeAccount.png in Resources */,
 				40AD812126989D9000529979 /* 1024.png in Resources */,
 				40AD812626989D9000529979 /* 80.png in Resources */,
 				40AD811F26989D9000529979 /* BackgroundLaunch.png in Resources */,
 				40AD812526989D9000529979 /* 180.png in Resources */,
+				401F0DBB2698A68E00B455B8 /* HomeImage.png in Resources */,
 				40AD80FB2698851800529979 /* GoogleService-Info.plist in Resources */,
 				40AD812726989D9000529979 /* 40.png in Resources */,
+				401F0DBF2698A82000B455B8 /* HomeProfile.png in Resources */,
 				40AD811E26989D9000529979 /* Login OR.png in Resources */,
 				40AD812A26989D9000529979 /* LoginButton.png in Resources */,
 				40AD80902698612600529979 /* LaunchScreen.storyboard in Resources */,
 				40AD812826989D9000529979 /* 87.png in Resources */,
+				401F0DBC2698A68E00B455B8 /* HomeTop.png in Resources */,
+				401F0DB92698A68E00B455B8 /* HomeBox.png in Resources */,
 				40AD812226989D9000529979 /* 60.png in Resources */,
 				40AD812926989D9000529979 /* Logo.png in Resources */,
+				401F0DBA2698A68E00B455B8 /* HomeAcc.png in Resources */,
 				40AD812026989D9000529979 /* HeaderLogin.png in Resources */,
 				40AD812B26989D9000529979 /* LineTextField.png in Resources */,
+				401F0DBD2698A68E00B455B8 /* HomeBottom.png in Resources */,
+				401F0DC32698A8D300B455B8 /* HomeArrow.png in Resources */,
 				40AD808D2698612600529979 /* Assets.xcassets in Resources */,
 				40AD812326989D9000529979 /* 58.png in Resources */,
 				40AD812426989D9000529979 /* 120.png in Resources */,
