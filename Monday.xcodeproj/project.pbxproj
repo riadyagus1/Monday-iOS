@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,21 +11,51 @@
 		40AD80832698612500529979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80822698612500529979 /* SceneDelegate.swift */; };
 		40AD80852698612500529979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80842698612500529979 /* ViewController.swift */; };
 		40AD80882698612500529979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80862698612500529979 /* Main.storyboard */; };
-		40AD808B2698612500529979 /* Monday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80892698612500529979 /* Monday.xcdatamodeld */; };
 		40AD808D2698612600529979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AD808C2698612600529979 /* Assets.xcassets */; };
 		40AD80902698612600529979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD808E2698612600529979 /* LaunchScreen.storyboard */; };
+		40AD80A02698634100529979 /* LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809D2698634100529979 /* LoginScreen.png */; };
+		40AD80A12698634100529979 /* Rectangle 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809E2698634100529979 /* Rectangle 23.png */; };
+		40AD80A22698634100529979 /* Rectangle 23-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809F2698634100529979 /* Rectangle 23-2.png */; };
+		40AD80A52698656C00529979 /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A32698656C00529979 /* LoginButton.png */; };
+		40AD80A62698656C00529979 /* HeaderLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A42698656C00529979 /* HeaderLogin.png */; };
+		40AD80A8269867A300529979 /* LineTextField.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A7269867A300529979 /* LineTextField.png */; };
+		40AD80AA26986A4000529979 /* Login OR.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A926986A4000529979 /* Login OR.png */; };
+		40AD80AC26986E0E00529979 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80AB26986E0E00529979 /* Logo.png */; };
+		40AD80F526987FC300529979 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80F426987FC300529979 /* LoginViewController.swift */; };
+		40AD80F726987FE600529979 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80F626987FE600529979 /* SignUpViewController.swift */; };
+		40AD80FB2698851800529979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80FA2698851800529979 /* GoogleService-Info.plist */; };
+		40AD80FD2698852F00529979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80FC2698852F00529979 /* GoogleService-Info.plist */; };
+		40AD81042698921900529979 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD81032698921900529979 /* HomeViewController.swift */; };
+		40AD810626989C0800529979 /* BackgroundLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD810526989C0800529979 /* BackgroundLaunch.png */; };
+		CDF7FC3306C0D15ED6DA9E7A /* Pods_Monday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFFF4AEFD2EA86DAAFE8DD9 /* Pods_Monday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037A6A416B8E3A7F4C9280EA /* Pods-Monday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monday.debug.xcconfig"; path = "Target Support Files/Pods-Monday/Pods-Monday.debug.xcconfig"; sourceTree = "<group>"; };
 		40AD807D2698612500529979 /* Monday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD80802698612500529979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40AD80822698612500529979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		40AD80842698612500529979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40AD80872698612500529979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40AD808A2698612500529979 /* Monday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Monday.xcdatamodel; sourceTree = "<group>"; };
 		40AD808C2698612600529979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AD808F2698612600529979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AD80912698612600529979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AD809D2698634100529979 /* LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreen.png; sourceTree = "<group>"; };
+		40AD809E2698634100529979 /* Rectangle 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23.png"; sourceTree = "<group>"; };
+		40AD809F2698634100529979 /* Rectangle 23-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23-2.png"; sourceTree = "<group>"; };
+		40AD80A32698656C00529979 /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
+		40AD80A42698656C00529979 /* HeaderLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderLogin.png; sourceTree = "<group>"; };
+		40AD80A7269867A300529979 /* LineTextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineTextField.png; sourceTree = "<group>"; };
+		40AD80A926986A4000529979 /* Login OR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login OR.png"; sourceTree = "<group>"; };
+		40AD80AB26986E0E00529979 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		40AD80F426987FC300529979 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40AD80F626987FE600529979 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		40AD80FA2698851800529979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40AD80FC2698852F00529979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40AD81032698921900529979 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		40AD810526989C0800529979 /* BackgroundLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundLaunch.png; sourceTree = "<group>"; };
+		75AFF8494D1D7D31FC658AF2 /* Pods-Monday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monday.release.xcconfig"; path = "Target Support Files/Pods-Monday/Pods-Monday.release.xcconfig"; sourceTree = "<group>"; };
+		EDFFF4AEFD2EA86DAAFE8DD9 /* Pods_Monday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF7FC3306C0D15ED6DA9E7A /* Pods_Monday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 			children = (
 				40AD807F2698612500529979 /* Monday */,
 				40AD807E2698612500529979 /* Products */,
+				41C5020DE4C46FC7D07F0401 /* Pods */,
+				72BED6401333E01A9F3C5114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +94,52 @@
 				40AD80802698612500529979 /* AppDelegate.swift */,
 				40AD80822698612500529979 /* SceneDelegate.swift */,
 				40AD80842698612500529979 /* ViewController.swift */,
+				40AD80F426987FC300529979 /* LoginViewController.swift */,
+				40AD80F626987FE600529979 /* SignUpViewController.swift */,
+				40AD81032698921900529979 /* HomeViewController.swift */,
 				40AD80862698612500529979 /* Main.storyboard */,
 				40AD808C2698612600529979 /* Assets.xcassets */,
+				40AD809C2698634100529979 /* Assets Monday */,
 				40AD808E2698612600529979 /* LaunchScreen.storyboard */,
 				40AD80912698612600529979 /* Info.plist */,
-				40AD80892698612500529979 /* Monday.xcdatamodeld */,
+				40AD80FC2698852F00529979 /* GoogleService-Info.plist */,
 			);
 			path = Monday;
+			sourceTree = "<group>";
+		};
+		40AD809C2698634100529979 /* Assets Monday */ = {
+			isa = PBXGroup;
+			children = (
+				40AD810526989C0800529979 /* BackgroundLaunch.png */,
+				40AD80AB26986E0E00529979 /* Logo.png */,
+				40AD809D2698634100529979 /* LoginScreen.png */,
+				40AD809E2698634100529979 /* Rectangle 23.png */,
+				40AD809F2698634100529979 /* Rectangle 23-2.png */,
+				40AD80A42698656C00529979 /* HeaderLogin.png */,
+				40AD80A32698656C00529979 /* LoginButton.png */,
+				40AD80A7269867A300529979 /* LineTextField.png */,
+				40AD80A926986A4000529979 /* Login OR.png */,
+			);
+			name = "Assets Monday";
+			path = "../../Assets Monday";
+			sourceTree = "<group>";
+		};
+		41C5020DE4C46FC7D07F0401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037A6A416B8E3A7F4C9280EA /* Pods-Monday.debug.xcconfig */,
+				75AFF8494D1D7D31FC658AF2 /* Pods-Monday.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72BED6401333E01A9F3C5114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40AD80FA2698851800529979 /* GoogleService-Info.plist */,
+				EDFFF4AEFD2EA86DAAFE8DD9 /* Pods_Monday.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40AD80942698612600529979 /* Build configuration list for PBXNativeTarget "Monday" */;
 			buildPhases = (
+				C9281ED2220D13387AB99D76 /* [CP] Check Pods Manifest.lock */,
 				40AD80792698612500529979 /* Sources */,
 				40AD807A2698612500529979 /* Frameworks */,
 				40AD807B2698612500529979 /* Resources */,
+				22D0BDB2346F5A6F689E2316 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,23 +201,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AD810626989C0800529979 /* BackgroundLaunch.png in Resources */,
+				40AD80FD2698852F00529979 /* GoogleService-Info.plist in Resources */,
+				40AD80FB2698851800529979 /* GoogleService-Info.plist in Resources */,
 				40AD80902698612600529979 /* LaunchScreen.storyboard in Resources */,
+				40AD80A52698656C00529979 /* LoginButton.png in Resources */,
+				40AD80A12698634100529979 /* Rectangle 23.png in Resources */,
 				40AD808D2698612600529979 /* Assets.xcassets in Resources */,
+				40AD80AC26986E0E00529979 /* Logo.png in Resources */,
+				40AD80A8269867A300529979 /* LineTextField.png in Resources */,
+				40AD80AA26986A4000529979 /* Login OR.png in Resources */,
+				40AD80A62698656C00529979 /* HeaderLogin.png in Resources */,
 				40AD80882698612500529979 /* Main.storyboard in Resources */,
+				40AD80A22698634100529979 /* Rectangle 23-2.png in Resources */,
+				40AD80A02698634100529979 /* LoginScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D0BDB2346F5A6F689E2316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monday/Pods-Monday-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monday/Pods-Monday-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Monday/Pods-Monday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9281ED2220D13387AB99D76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Monday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40AD80792698612500529979 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AD80F526987FC300529979 /* LoginViewController.swift in Sources */,
 				40AD80852698612500529979 /* ViewController.swift in Sources */,
 				40AD80812698612500529979 /* AppDelegate.swift in Sources */,
 				40AD80832698612500529979 /* SceneDelegate.swift in Sources */,
-				40AD808B2698612500529979 /* Monday.xcdatamodeld in Sources */,
+				40AD80F726987FE600529979 /* SignUpViewController.swift in Sources */,
+				40AD81042698921900529979 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,39 +416,43 @@
 		};
 		40AD80952698612600529979 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037A6A416B8E3A7F4C9280EA /* Pods-Monday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZXGAQ3YM;
 				INFOPLIST_FILE = Monday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AgusRiady..Monday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgusRiady.Monday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		40AD80962698612600529979 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AFF8494D1D7D31FC658AF2 /* Pods-Monday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZXGAQ3YM;
 				INFOPLIST_FILE = Monday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AgusRiady..Monday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AgusRiady.Monday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -345,19 +478,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		40AD80892698612500529979 /* Monday.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				40AD808A2698612500529979 /* Monday.xcdatamodel */,
-			);
-			currentVersion = 40AD808A2698612500529979 /* Monday.xcdatamodel */;
-			path = Monday.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 40AD80752698612500529979 /* Project object */;
 }
