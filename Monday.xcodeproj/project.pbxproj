@@ -7,31 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402F27802698A2680010EE77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 402F277F2698A2680010EE77 /* GoogleService-Info.plist */; };
 		40AD80812698612500529979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80802698612500529979 /* AppDelegate.swift */; };
 		40AD80832698612500529979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80822698612500529979 /* SceneDelegate.swift */; };
 		40AD80852698612500529979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80842698612500529979 /* ViewController.swift */; };
 		40AD80882698612500529979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80862698612500529979 /* Main.storyboard */; };
 		40AD808D2698612600529979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AD808C2698612600529979 /* Assets.xcassets */; };
 		40AD80902698612600529979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AD808E2698612600529979 /* LaunchScreen.storyboard */; };
-		40AD80A02698634100529979 /* LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809D2698634100529979 /* LoginScreen.png */; };
-		40AD80A12698634100529979 /* Rectangle 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809E2698634100529979 /* Rectangle 23.png */; };
-		40AD80A22698634100529979 /* Rectangle 23-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD809F2698634100529979 /* Rectangle 23-2.png */; };
-		40AD80A52698656C00529979 /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A32698656C00529979 /* LoginButton.png */; };
-		40AD80A62698656C00529979 /* HeaderLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A42698656C00529979 /* HeaderLogin.png */; };
-		40AD80A8269867A300529979 /* LineTextField.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A7269867A300529979 /* LineTextField.png */; };
-		40AD80AA26986A4000529979 /* Login OR.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80A926986A4000529979 /* Login OR.png */; };
-		40AD80AC26986E0E00529979 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80AB26986E0E00529979 /* Logo.png */; };
 		40AD80F526987FC300529979 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80F426987FC300529979 /* LoginViewController.swift */; };
 		40AD80F726987FE600529979 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD80F626987FE600529979 /* SignUpViewController.swift */; };
 		40AD80FB2698851800529979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80FA2698851800529979 /* GoogleService-Info.plist */; };
-		40AD80FD2698852F00529979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40AD80FC2698852F00529979 /* GoogleService-Info.plist */; };
 		40AD81042698921900529979 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD81032698921900529979 /* HomeViewController.swift */; };
-		40AD810626989C0800529979 /* BackgroundLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD810526989C0800529979 /* BackgroundLaunch.png */; };
+		40AD811E26989D9000529979 /* Login OR.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD810C26989D8F00529979 /* Login OR.png */; };
+		40AD811F26989D9000529979 /* BackgroundLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD810D26989D8F00529979 /* BackgroundLaunch.png */; };
+		40AD812026989D9000529979 /* HeaderLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD810E26989D8F00529979 /* HeaderLogin.png */; };
+		40AD812126989D9000529979 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811026989D8F00529979 /* 1024.png */; };
+		40AD812226989D9000529979 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811126989D8F00529979 /* 60.png */; };
+		40AD812326989D9000529979 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811226989D9000529979 /* 58.png */; };
+		40AD812426989D9000529979 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811326989D9000529979 /* 120.png */; };
+		40AD812526989D9000529979 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811426989D9000529979 /* 180.png */; };
+		40AD812626989D9000529979 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811526989D9000529979 /* 80.png */; };
+		40AD812726989D9000529979 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811626989D9000529979 /* 40.png */; };
+		40AD812826989D9000529979 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811726989D9000529979 /* 87.png */; };
+		40AD812926989D9000529979 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811826989D9000529979 /* Logo.png */; };
+		40AD812A26989D9000529979 /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811926989D9000529979 /* LoginButton.png */; };
+		40AD812B26989D9000529979 /* LineTextField.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811A26989D9000529979 /* LineTextField.png */; };
+		40AD812C26989D9000529979 /* LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811B26989D9000529979 /* LoginScreen.png */; };
+		40AD812D26989D9000529979 /* Rectangle 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811C26989D9000529979 /* Rectangle 23.png */; };
+		40AD812E26989D9000529979 /* Rectangle 23-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AD811D26989D9000529979 /* Rectangle 23-2.png */; };
 		CDF7FC3306C0D15ED6DA9E7A /* Pods_Monday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFFF4AEFD2EA86DAAFE8DD9 /* Pods_Monday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		037A6A416B8E3A7F4C9280EA /* Pods-Monday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monday.debug.xcconfig"; path = "Target Support Files/Pods-Monday/Pods-Monday.debug.xcconfig"; sourceTree = "<group>"; };
+		402F277F2698A2680010EE77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40AD807D2698612500529979 /* Monday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AD80802698612500529979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40AD80822698612500529979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,20 +49,27 @@
 		40AD808C2698612600529979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AD808F2698612600529979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AD80912698612600529979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40AD809D2698634100529979 /* LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreen.png; sourceTree = "<group>"; };
-		40AD809E2698634100529979 /* Rectangle 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23.png"; sourceTree = "<group>"; };
-		40AD809F2698634100529979 /* Rectangle 23-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23-2.png"; sourceTree = "<group>"; };
-		40AD80A32698656C00529979 /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
-		40AD80A42698656C00529979 /* HeaderLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderLogin.png; sourceTree = "<group>"; };
-		40AD80A7269867A300529979 /* LineTextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineTextField.png; sourceTree = "<group>"; };
-		40AD80A926986A4000529979 /* Login OR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login OR.png"; sourceTree = "<group>"; };
-		40AD80AB26986E0E00529979 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		40AD80F426987FC300529979 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		40AD80F626987FE600529979 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		40AD80FA2698851800529979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		40AD80FC2698852F00529979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40AD81032698921900529979 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		40AD810526989C0800529979 /* BackgroundLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundLaunch.png; sourceTree = "<group>"; };
+		40AD810C26989D8F00529979 /* Login OR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login OR.png"; sourceTree = "<group>"; };
+		40AD810D26989D8F00529979 /* BackgroundLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundLaunch.png; sourceTree = "<group>"; };
+		40AD810E26989D8F00529979 /* HeaderLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderLogin.png; sourceTree = "<group>"; };
+		40AD811026989D8F00529979 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		40AD811126989D8F00529979 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		40AD811226989D9000529979 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		40AD811326989D9000529979 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		40AD811426989D9000529979 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		40AD811526989D9000529979 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		40AD811626989D9000529979 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		40AD811726989D9000529979 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		40AD811826989D9000529979 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		40AD811926989D9000529979 /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
+		40AD811A26989D9000529979 /* LineTextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineTextField.png; sourceTree = "<group>"; };
+		40AD811B26989D9000529979 /* LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreen.png; sourceTree = "<group>"; };
+		40AD811C26989D9000529979 /* Rectangle 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23.png"; sourceTree = "<group>"; };
+		40AD811D26989D9000529979 /* Rectangle 23-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 23-2.png"; sourceTree = "<group>"; };
 		75AFF8494D1D7D31FC658AF2 /* Pods-Monday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monday.release.xcconfig"; path = "Target Support Files/Pods-Monday/Pods-Monday.release.xcconfig"; sourceTree = "<group>"; };
 		EDFFF4AEFD2EA86DAAFE8DD9 /* Pods_Monday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,29 +115,44 @@
 				40AD81032698921900529979 /* HomeViewController.swift */,
 				40AD80862698612500529979 /* Main.storyboard */,
 				40AD808C2698612600529979 /* Assets.xcassets */,
-				40AD809C2698634100529979 /* Assets Monday */,
+				40AD810B26989D8F00529979 /* Assets Monday */,
 				40AD808E2698612600529979 /* LaunchScreen.storyboard */,
 				40AD80912698612600529979 /* Info.plist */,
-				40AD80FC2698852F00529979 /* GoogleService-Info.plist */,
+				402F277F2698A2680010EE77 /* GoogleService-Info.plist */,
 			);
 			path = Monday;
 			sourceTree = "<group>";
 		};
-		40AD809C2698634100529979 /* Assets Monday */ = {
+		40AD810B26989D8F00529979 /* Assets Monday */ = {
 			isa = PBXGroup;
 			children = (
-				40AD810526989C0800529979 /* BackgroundLaunch.png */,
-				40AD80AB26986E0E00529979 /* Logo.png */,
-				40AD809D2698634100529979 /* LoginScreen.png */,
-				40AD809E2698634100529979 /* Rectangle 23.png */,
-				40AD809F2698634100529979 /* Rectangle 23-2.png */,
-				40AD80A42698656C00529979 /* HeaderLogin.png */,
-				40AD80A32698656C00529979 /* LoginButton.png */,
-				40AD80A7269867A300529979 /* LineTextField.png */,
-				40AD80A926986A4000529979 /* Login OR.png */,
+				40AD810C26989D8F00529979 /* Login OR.png */,
+				40AD810D26989D8F00529979 /* BackgroundLaunch.png */,
+				40AD810E26989D8F00529979 /* HeaderLogin.png */,
+				40AD810F26989D8F00529979 /* Logo */,
+				40AD811826989D9000529979 /* Logo.png */,
+				40AD811926989D9000529979 /* LoginButton.png */,
+				40AD811A26989D9000529979 /* LineTextField.png */,
+				40AD811B26989D9000529979 /* LoginScreen.png */,
+				40AD811C26989D9000529979 /* Rectangle 23.png */,
+				40AD811D26989D9000529979 /* Rectangle 23-2.png */,
 			);
-			name = "Assets Monday";
-			path = "../../Assets Monday";
+			path = "Assets Monday";
+			sourceTree = SOURCE_ROOT;
+		};
+		40AD810F26989D8F00529979 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				40AD811026989D8F00529979 /* 1024.png */,
+				40AD811126989D8F00529979 /* 60.png */,
+				40AD811226989D9000529979 /* 58.png */,
+				40AD811326989D9000529979 /* 120.png */,
+				40AD811426989D9000529979 /* 180.png */,
+				40AD811526989D9000529979 /* 80.png */,
+				40AD811626989D9000529979 /* 40.png */,
+				40AD811726989D9000529979 /* 87.png */,
+			);
+			path = Logo;
 			sourceTree = "<group>";
 		};
 		41C5020DE4C46FC7D07F0401 /* Pods */ = {
@@ -201,20 +232,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40AD810626989C0800529979 /* BackgroundLaunch.png in Resources */,
-				40AD80FD2698852F00529979 /* GoogleService-Info.plist in Resources */,
+				40AD812D26989D9000529979 /* Rectangle 23.png in Resources */,
+				40AD812126989D9000529979 /* 1024.png in Resources */,
+				40AD812626989D9000529979 /* 80.png in Resources */,
+				40AD811F26989D9000529979 /* BackgroundLaunch.png in Resources */,
+				40AD812526989D9000529979 /* 180.png in Resources */,
 				40AD80FB2698851800529979 /* GoogleService-Info.plist in Resources */,
+				40AD812726989D9000529979 /* 40.png in Resources */,
+				40AD811E26989D9000529979 /* Login OR.png in Resources */,
+				40AD812A26989D9000529979 /* LoginButton.png in Resources */,
 				40AD80902698612600529979 /* LaunchScreen.storyboard in Resources */,
-				40AD80A52698656C00529979 /* LoginButton.png in Resources */,
-				40AD80A12698634100529979 /* Rectangle 23.png in Resources */,
+				40AD812826989D9000529979 /* 87.png in Resources */,
+				40AD812226989D9000529979 /* 60.png in Resources */,
+				40AD812926989D9000529979 /* Logo.png in Resources */,
+				40AD812026989D9000529979 /* HeaderLogin.png in Resources */,
+				40AD812B26989D9000529979 /* LineTextField.png in Resources */,
 				40AD808D2698612600529979 /* Assets.xcassets in Resources */,
-				40AD80AC26986E0E00529979 /* Logo.png in Resources */,
-				40AD80A8269867A300529979 /* LineTextField.png in Resources */,
-				40AD80AA26986A4000529979 /* Login OR.png in Resources */,
-				40AD80A62698656C00529979 /* HeaderLogin.png in Resources */,
+				40AD812326989D9000529979 /* 58.png in Resources */,
+				40AD812426989D9000529979 /* 120.png in Resources */,
+				40AD812E26989D9000529979 /* Rectangle 23-2.png in Resources */,
+				402F27802698A2680010EE77 /* GoogleService-Info.plist in Resources */,
 				40AD80882698612500529979 /* Main.storyboard in Resources */,
-				40AD80A22698634100529979 /* Rectangle 23-2.png in Resources */,
-				40AD80A02698634100529979 /* LoginScreen.png in Resources */,
+				40AD812C26989D9000529979 /* LoginScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

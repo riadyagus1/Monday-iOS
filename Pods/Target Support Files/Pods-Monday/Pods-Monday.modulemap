@@ -1,0 +1,6 @@
+framework module Pods_Monday {
+  umbrella header "Pods-Monday-umbrella.h"
+
+  export *
+  module * { export * }
+}
