@@ -39,9 +39,11 @@ class LoginViewController: UIViewController {
                 self.present(dialogMessage, animated: true, completion: nil)
             }
             else {
+                let userDefaultStore = UserDefaults.standard
+                userDefaultStore.set(self.emailField.text, forKey: "email")
                 
                 let storyBoard:UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-                let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeViewController")
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "TabbarViewController")
                 newViewController.modalPresentationStyle = .fullScreen
                 self.show(newViewController, sender: self)
             }

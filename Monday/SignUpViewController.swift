@@ -15,6 +15,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+      self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,6 +58,9 @@ class SignUpViewController: UIViewController {
             // Create the user
             Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
                 
+                let userDefaultStore = UserDefaults.standard
+                userDefaultStore.set(self.emailField.text, forKey: "email")
+                
                 // Check for errors
                 if err != nil {
                     
@@ -65,7 +72,7 @@ class SignUpViewController: UIViewController {
                     // User was created successfully, now store the first name and last name
                     let db = Firestore.firestore()
                     
-                    db.collection("users").addDocument(data: ["name":name, "email":email, "uid": result!.user.uid ]) { (error) in
+                    db.collection("users").addDocument(data: ["name":name, "email":email, "gender":"Not set yet", "phone":"not set yet", "uid": result!.user.uid ]) { (error) in
                         
                         if error != nil {
                             // Show error message
@@ -102,7 +109,7 @@ class SignUpViewController: UIViewController {
     func transitionToHome() {
         
         let storyBoard:UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeViewController")
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "TabbarViewController")
         newViewController.modalPresentationStyle = .fullScreen
         self.show(newViewController, sender: self)
         

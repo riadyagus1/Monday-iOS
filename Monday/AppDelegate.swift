@@ -7,6 +7,8 @@
 
 import UIKit
 import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       didFinishLaunchingWithOptions launchOptions:
         [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
       FirebaseApp.configure()
+        
+    //MARK: API Google Map
+    GMSServices.provideAPIKey("AIzaSyD8dMKNyt1-T5TNRz9t-GYZxEw1krHzXvQ")
+    GMSPlacesClient.provideAPIKey("AIzaSyD8dMKNyt1-T5TNRz9t-GYZxEw1krHzXvQ")
+    // API Google Map (End)
+        
       return true
     }
 

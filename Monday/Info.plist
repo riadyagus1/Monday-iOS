@@ -52,8 +52,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -62,5 +60,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Aplikasi ini ingin mengakses kamera anda.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Aplikasi ini ingin mengakses lokasi anda.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Aplikasi ini ingin mengakses galeri anda.</string>
 </dict>
 </plist>
